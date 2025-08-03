@@ -1,0 +1,55 @@
+# Environment variables
+.env
+.env.*
+
+# Database files
+*.sqlite3
+*.db
+*.mysql
+/mysql_data/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.pid
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Static files
+staticfiles/
+media/
+
+# macOS
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Backup files
+*.bak
+*~
+
+# Migrations (optional - only if you want to exclude them)
+*/migrations/*.py
+!*/migrations/__init__.py
