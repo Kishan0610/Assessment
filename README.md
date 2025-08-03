@@ -1,6 +1,6 @@
 # Django Client-Project Management API
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
