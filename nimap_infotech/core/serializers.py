@@ -38,11 +38,7 @@ class ClientDetailSerializer(serializers.ModelSerializer):
         return ProjectSerializer(projects, many=True).data
 
 class ProjectCreateSerializer(serializers.ModelSerializer):
-    users = serializers.PrimaryKeyRelatedField(
-        many=True,
-        queryset=User.objects.all()
-    )
-    
+    users = serializers.PrimaryKeyRelatedField(many=True, queryset=User.objects.all())
     class Meta:
         model = Project
         fields = ['project_name', 'users']
